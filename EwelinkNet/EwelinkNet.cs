@@ -94,7 +94,14 @@ namespace EwelinkNet
 
         private void CreateDevices(string json)
         {
-            CreateDevices(JsonConvert.DeserializeObject<DeviceList>(json).devicelist.ToArray());
+            try
+            {
+                CreateDevices(JsonConvert.DeserializeObject<DeviceList>(json).devicelist.ToArray());
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Credentials = GetCredentials().Result;
+            }
         }
 
         
