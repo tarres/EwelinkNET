@@ -13,8 +13,8 @@ namespace EwelinkNet.Constants
     {
         internal const string VERSION = "8";
         internal const string OS = "android";
-        internal const string APP_SECRET = "4G91qSoboqYO4Y0XJ0LPPKIsq8reHdfa";
-        internal const string APP_ID = "YzfeftUVcZ6twZw1OoVKPRFYTrGEg01Q";
+        internal const string APP_SECRET = "vGriTVtDZsm64rp3PkisHtJPblJ0CTHr";
+        internal const string APP_ID = "QYQxlfILVX5sSOSXzh0i0sBdgWXTJZr4";
         internal const string MODEL = "";
         internal const string ROM_VERSION = "";
         internal const string APP_VERSION = "3.14.1";
